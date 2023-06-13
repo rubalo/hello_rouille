@@ -7,9 +7,13 @@ From the following book : https://doc.rust-lang.org/stable/book/
 
 And this is a placeholder for the code.  Nothing fancy here.
 
-# 0. Reference
+# 0. Reminders
 
     Preludes : Librairies shipped with rust -> https://doc.rust-lang.org/stable/std/prelude/index.html
+
+    rust-analyzer to work with subfolders in vs-code:
+        add in .vscode/settings.json  a link to the Cargo.toml, for example:
+        "rust-analyzer.linkedProjects": ["projects/guessing_game/Cargo.toml"]
 
 # 1. Getting started
 
@@ -28,6 +32,7 @@ Cargo:
     Run: `cargo run` (Binary in target folder)
     Check: `cargo check` Doesn't produce an exe
     Update crates : `cargo update`
+    Local doc: `cargo doc --open`
 
 
 `println!` is a macro and `println` is a function.
@@ -36,5 +41,8 @@ Cargo:
 
     An associated function is a function that’s implemented on a type
 
+# 3. Common Programming Concepts
 
-NEXT : https://doc.rust-lang.org/stable/book/ch02-00-guessing-game-tutorial.html#generating-a-random-number
+# 4. Understanding Ownership
+
+NEXT :  https://doc.rust-lang.org/stable/book/ch04-00-understanding-ownership.html
