@@ -45,4 +45,6 @@ Cargo:
 
 # 4. Understanding Ownership
 
-NEXT :  https://doc.rust-lang.org/stable/book/ch04-00-understanding-ownership.html
+# 5. Using Structs to Structure Related Data
+
+NEXT : https://doc.rust-lang.org/stable/book/ch05-02-example-structs.html#an-example-program-using-structs 
