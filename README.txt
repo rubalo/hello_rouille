@@ -49,5 +49,6 @@ Cargo:
 
 # 6. Enums and Pattern Matching
 
+# 7. Managing Growing Projects with Packages, Crates, and Modules
 
 NEXT : https://doc.rust-lang.org/stable/book/ch06-00-enums.html 
