@@ -51,4 +51,4 @@ Cargo:
 
 # 7. Managing Growing Projects with Packages, Crates, and Modules
 
-NEXT : https://doc.rust-lang.org/stable/book/ch06-00-enums.html 
+NEXT : https://doc.rust-lang.org/stable/book/ch08-00-common-collections.html
