@@ -47,4 +47,7 @@ Cargo:
 
 # 5. Using Structs to Structure Related Data
 
-NEXT : https://doc.rust-lang.org/stable/book/ch05-02-example-structs.html#an-example-program-using-structs 
+# 6. Enums and Pattern Matching
+
+
+NEXT : https://doc.rust-lang.org/stable/book/ch06-00-enums.html 
