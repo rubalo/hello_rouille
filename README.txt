@@ -51,4 +51,10 @@ Cargo:
 
 # 7. Managing Growing Projects with Packages, Crates, and Modules
 
-NEXT : https://doc.rust-lang.org/stable/book/ch08-00-common-collections.html
+# 8. Common collections
+
+    vector, strings ad hashmaps
+
+# 9. Error Handling
+
+NEXT : https://doc.rust-lang.org/stable/book/ch09-00-error-handling.html
