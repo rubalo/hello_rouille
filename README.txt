@@ -57,4 +57,6 @@ Cargo:
 
 # 9. Error Handling
 
-NEXT : https://doc.rust-lang.org/stable/book/ch09-00-error-handling.html
+# 10. Generic types, Traits and Lifetimes
+
+NEXT : https://doc.rust-lang.org/stable/book/ch10-03-lifetime-syntax.html
