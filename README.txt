@@ -59,4 +59,6 @@ Cargo:
 
 # 10. Generic types, Traits and Lifetimes
 
-NEXT : https://doc.rust-lang.org/stable/book/ch10-03-lifetime-syntax.html
+# 11. Wrting automated Tests
+
+NEXT : https://doc.rust-lang.org/stable/book/ch11-03-test-organization.html
