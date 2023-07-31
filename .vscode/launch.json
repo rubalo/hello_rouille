@@ -12,6 +12,22 @@
         "args": ["build", "--manifest-path", "${fileDirname}/../Cargo.toml"]
       },
       "console": "integratedTerminal"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Cargo launch minigrep",
+      "cargo": {
+        "args": [
+          "build",
+          "--manifest-path",
+          "${workspaceFolder}/projects/minigrep/Cargo.toml",
+          "--",
+          "mytestPhrase",
+          "/tmp/test.txt"
+        ]
+      },
+      "console": "integratedTerminal"
     }
   ]
 }
