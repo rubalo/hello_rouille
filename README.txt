@@ -61,4 +61,6 @@ Cargo:
 
 # 11. Wrting automated Tests
 
-NEXT : https://doc.rust-lang.org/stable/book/ch11-03-test-organization.html
+# 12. An I/O Project: Building a Command Line Program
+
+NEXT : https://doc.rust-lang.org/stable/book/ch12-04-testing-the-librarys-functionality.html
