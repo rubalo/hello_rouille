@@ -10,11 +10,6 @@ fn main() {
 
     let config: Config = Config::build(&args).unwrap_or_else(| err | err_message(err));
 
-    println!("*****************");
-    println!("Running {}", config.binary);
-    println!("Searching {} in {}", config.query, config.file_path);
-    println!("*****************");
-
     if let Err(err) = minigrep::run(config) {
         err_message(&err.to_string());
     };
