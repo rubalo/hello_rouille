@@ -1,3 +1,4 @@
+use std::env;
 use std::error::Error;
 use std::fs;
 
@@ -17,7 +18,7 @@ impl Config {
         let binary = args[0].clone();
         let query = args[1].clone();
         let file_path = args[2].clone();
-        let ignore_case: bool = false;
+        let ignore_case: bool = env::var("IGNORE_CASE").is_ok();
 
         Ok(Config {binary, query, file_path , ignore_case})
     }
@@ -28,7 +29,7 @@ pub fn run(config: Config) -> Result <(), Box<dyn Error>> {
     let content: String  = fs::read_to_string(config.file_path)?;
 
     let res: Vec<&str> = if config.ignore_case {
-        search(&config.query, &content)
+        search_case_insensitive(&config.query, &content)
     } else {
         search(&config.query, &content)
     };

@@ -17,11 +17,11 @@ fn main() {
 }
 
 fn err_message(err: &str) -> ! { 
-    println!("{}", err);
+    eprintln!("{}", err);
     usage();
     process::exit(1);
 }
 
 fn usage() {
-    println!("Usage: \n\tminigrep <Search_String> <File_path>");
+    eprintln!("Usage: \n\tminigrep <Search_String> <File_path>");
 }
