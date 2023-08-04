@@ -1,6 +1,7 @@
 {
   "rust-analyzer.linkedProjects": [
     "${workspaceFolder}/projects/chapter_10/Cargo.toml",
+    "${workspaceFolder}/projects/chapter_13/Cargo.toml",
     "${workspaceFolder}/projects/minigrep/Cargo.toml"
   ]
 }
